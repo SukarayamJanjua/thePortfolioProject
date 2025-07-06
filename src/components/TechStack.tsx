@@ -25,6 +25,11 @@ const TechStack: React.FC = () => {
       technologies: ['Arrays', 'Stacks', 'Queues', 'Linked lists', 'Heaps', 'Trees', 'Graphs']
     },
     {
+      name: 'Robotics Process Automation (RPA)',
+      icon: <Cloud className="w-6 h-6 text-purple-400" />,
+      technologies: ['UiPath', 'Python', 'Docker', 'SQL', 'Playwright','APIs']
+    },
+    {
       name: 'Languages',
       icon: <Languages className="w-6 h-6 text-pink-400" />,
       technologies: ['C++', 'C#', 'JavaScript', 'SQL', 'Python']
@@ -42,7 +47,7 @@ const TechStack: React.FC = () => {
     {
       name: 'Tools & Others',
       icon: <Terminal className="w-6 h-6 text-orange-400" />,
-      technologies: ['Git', 'VS Code', 'Postman', 'Figma', 'Linux', 'Swagger', 'Blender']
+      technologies: ['Git', 'VS Code', 'Postman', 'Figma', 'Linux', 'Swagger', 'Blender', 'Jira', 'Slack']
     }
   ];
 
